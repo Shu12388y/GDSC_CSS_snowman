@@ -1,0 +1,103 @@
+html,body{
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+}
+body{
+    background-color: #ac474b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.snowman{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+.lowerpart{
+    position: absolute;
+    padding: 10rem;
+    border-radius: 50%;
+    background-color: white;
+    top: 50%;
+    left: 40%;
+}
+.square{
+    position: absolute;
+    /* padding: 6rem 1rem; */
+    width: 16rem;
+    height: 4rem;
+    background-color: #ac474b;
+    top: 47%;
+    left: 41%;
+}
+.square01{
+    position: absolute;
+    /* padding: 1rem; */
+    width: 12rem;
+    height: 2rem;
+    border-radius: 2rem;
+    background-color: #ffa63c;
+    top: 49%;
+    left: 44%;
+    z-index: 2;
+}
+.upperpart{
+    position: absolute;
+    padding: 5rem;
+    border-radius: 50%;
+    background-color: white;
+    top: 32%;
+    left: 45%;
+    z-index: -1;
+
+}
+
+.eyes1{
+    padding: 0.8rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 38%;
+    z-index: 2;
+    left: 47.5%;
+    background-color: black;
+}
+.eyes2{
+    padding: 0.8rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 38%;
+    z-index: 2;
+    left: 51%;
+    background-color: black;
+}
+.cap-lower{
+    width: 10rem;
+    height: 1rem;
+    background-color: black;
+    position: absolute;
+    z-index: 3;
+    top: 31%;
+    left: 45%;
+}
+.cap-upper{
+    width: 6rem;
+    height: 6rem;
+    background-color: black;
+    position: absolute;
+    z-index: 3;
+    top: 19%;
+    left: 47%;
+
+}
+.cap-white-part{
+    width: 6rem;
+    height: 2rem;
+    background-color: white;
+    position: absolute;
+    z-index: 4;
+    top: 23%;
+    left: 47%;
+}
